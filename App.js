@@ -9,6 +9,7 @@ const App = () => {
       <View style={styles.wrapper}>
       <View style={{alignItems: 'center', width: '100%', height: 200, backgroundColor: 'yellow'}}>
         <Text style={{ marginVertical: 10, fontSize: 20, color: 'blue'}}>INI GAMBAR ANDROID</Text>
+        <Text style={{ marginVertical: 10, fontSize: 20, color: 'blue'}}>HELLO</Text>
         {/* ini memanggil image secara local yang berada di folder assets */}
         <Image style={{ width: 200, height: 100, backgroundColor: 'red'}} source={require('./assets/1.png')}/>
       </View>
